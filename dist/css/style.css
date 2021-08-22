@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  background: url("../images/pattern-background-desktop.svg") no-repeat #e0e8ff;
+  background-position: left -80%;
+  height: 100%;
+  width: 100%;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Red Hat Display', sans-serif; }
+
+h1 {
+  font-weight: 900;
+  font-size: 1.4rem;
+  text-transform: capitalize; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: #3829e0;
+  display: inline-block; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  min-height: 100vh;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.order {
+  background: #fff;
+  max-width: 350px;
+  border-radius: 20px;
+  overflow: hidden; }
+  .order-image {
+    align-self: center;
+    margin: auto; }
+  .order-textwrap {
+    padding: 1.5rem 2rem; }
+    .order-textwrap-description {
+      padding-bottom: 1rem; }
+      .order-textwrap-description h1 {
+        padding-bottom: 1rem;
+        color: #1f2f56; }
+      .order-textwrap-description p {
+        color: #7280a7;
+        font-size: 0.9rem;
+        padding: 0 1rem; }
+    .order-textwrap-subscription {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background: #f5f7ff;
+      padding: 1rem 1rem;
+      font-size: 0.9rem;
+      border-radius: 0.8rem; }
+      .order-textwrap-subscription div:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .order-textwrap-subscription div:first-child img {
+          width: 90%; }
+      .order-textwrap-subscription div:nth-of-type(2) {
+        align-self: flex-start;
+        padding-left: 0.8rem;
+        color: #7280a7; }
+        .order-textwrap-subscription div:nth-of-type(2) p:first-child {
+          color: #1f2f56;
+          font-weight: 700; }
+      .order-textwrap-subscription a {
+        padding-left: 4rem;
+        font-size: 0.8rem;
+        font-weight: 700; }
+    .order-textwrap-buttons {
+      width: 100%;
+      padding-top: 1rem; }
+      .order-textwrap-buttons button {
+        width: 100%;
+        padding: 0.8rem;
+        font-weight: 700;
+        border: none; }
+        .order-textwrap-buttons button:first-child {
+          background: #3829e0;
+          color: #f5f7ff;
+          border-radius: 0.5rem;
+          box-shadow: 0px 13px 8px 0px #e0e8ff; }
+        .order-textwrap-buttons button:last-child {
+          padding: 0.5rem 0;
+          background: none;
+          margin-top: 1rem;
+          color: #7280a7;
+          font-size: 0.8rem; }
