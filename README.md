@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-[- Live Site URL](https://zealous-franklin-2c4174.netlify.app/)
+- Live Site URL:[Netlify](https://zealous-franklin-2c4174.netlify.app/)
 
 ## My process
 
