@@ -55,6 +55,6 @@ I want to use flexbox in the future and I want to learn more about background-po
 ## Author
 
 - Frontend Mentor - [@Nova988](https://www.frontendmentor.io/profile/Nova988)
-- Github - [@Nova988] (https://github.com/Nova988)
-- Twitter - [@A_Nova988] (https://twitter.com/A_Nova988)
+- Github - [@Nova988](https://github.com/Nova988)
+- Twitter - [@A_Nova988](https://twitter.com/A_Nova988)
 
