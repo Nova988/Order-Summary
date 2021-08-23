@@ -81,23 +81,39 @@ img {
       .order-textwrap-subscription a {
         padding-left: 4rem;
         font-size: 0.8rem;
-        font-weight: 700; }
+        font-weight: 700;
+        transition: opacity 100ms; }
+        .order-textwrap-subscription a:hover {
+          text-decoration: none;
+          opacity: 0.7; }
     .order-textwrap-buttons {
       width: 100%;
       padding-top: 1rem; }
       .order-textwrap-buttons button {
-        width: 100%;
         padding: 0.8rem;
         font-weight: 700;
         border: none; }
         .order-textwrap-buttons button:first-child {
+          width: 100%;
           background: #3829e0;
           color: #f5f7ff;
           border-radius: 0.5rem;
-          box-shadow: 0px 13px 8px 0px #e0e8ff; }
+          box-shadow: 0px 13px 8px 0px #e0e8ff;
+          transition: opacity 300ms ease-in; }
+          .order-textwrap-buttons button:first-child:hover {
+            opacity: 0.8; }
         .order-textwrap-buttons button:last-child {
           padding: 0.5rem 0;
           background: none;
           margin-top: 1rem;
           color: #7280a7;
-          font-size: 0.8rem; }
+          font-size: 0.8rem;
+          transition: color 100ms; }
+          .order-textwrap-buttons button:last-child:hover {
+            color: #000; }
+        .order-textwrap-buttons button:hover {
+          cursor: pointer; }
+
+@media (max-width: 480px) {
+  body {
+    background: url("../images/pattern-background-mobile.svg") no-repeat top #e0e8ff; } }

@@ -118,6 +118,12 @@ img {
                 padding-left: 4rem;
                 font-size: 0.8rem;
                 font-weight: 700;
+                transition: opacity 100ms;
+
+                &:hover {
+                    text-decoration: none;
+                    opacity: 0.7;
+                }
             }
         }
 
@@ -126,16 +132,21 @@ img {
             padding-top: 1rem;
             
             button {
-                width: 100%;
                 padding: 0.8rem;
                 font-weight: 700;
                 border: none;
 
                 &:first-child {
+                    width: 100%;
                     background: $primary-bright-blue;
                     color: $neutral-very-pale-blue;
                     border-radius: 0.5rem;
                     box-shadow: 0px 13px 8px 0px $primary-pale-blue;
+                    transition: opacity 300ms ease-in;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
                 }
 
                 &:last-child {
@@ -144,9 +155,24 @@ img {
                     margin-top: 1rem;
                     color: $neutral-desaturated-blue;
                     font-size: 0.8rem;
+                    transition: color 100ms;
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
+
+                &:hover {
+                    cursor: pointer;
                 }
             }
-
         }
     }
+}
+
+@media(max-width:480px) {
+    body {
+        background: url('../images/pattern-background-mobile.svg') no-repeat top $primary-pale-blue;
+    }
+
 }
